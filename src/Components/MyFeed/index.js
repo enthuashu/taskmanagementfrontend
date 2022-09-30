@@ -1,7 +1,14 @@
 import React from "react";
+import Post from "../Post";
 
 const MyFeed = () => {
-  return <div>Hello from the My Feed Dashboard</div>;
+  return (
+    <>
+      <Post />
+      <Post />
+      <Post />
+    </>
+  );
 };
 
 export default MyFeed;

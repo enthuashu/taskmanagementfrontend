@@ -1,7 +1,13 @@
 import React from "react";
+import Post from "../Post";
 
 const SavedPosts = () => {
-  return <div>Hello from the Saved posts Dashboard</div>;
+  return (
+    <>
+      <Post />
+      <Post />
+    </>
+  );
 };
 
 export default SavedPosts;
