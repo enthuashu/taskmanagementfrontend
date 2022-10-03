@@ -3,8 +3,11 @@ import NavbarIcon from "../images/taskicon.png";
 const Navbar = () => {
   return (
     <>
-      <nav style={{ backgroundColor: "orange" }} className="navbar navbar-dark">
-        <div className="container-fluid">
+      <nav
+        style={{ backgroundColor: "orange" }}
+        class="navbar navbar-default fixed-top"
+      >
+        <div class="container">
           <a className="navbar-brand" href="/">
             <img
               src={NavbarIcon}

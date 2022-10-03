@@ -52,13 +52,7 @@ export default function VerticalTabs() {
   };
 
   return (
-    <Box
-      sx={{
-        flexGrow: 1,
-        bgcolor: "background.paper",
-        display: "flex",
-      }}
-    >
+    <>
       <Tabs
         orientation="vertical"
         value={value}
@@ -69,6 +63,9 @@ export default function VerticalTabs() {
           borderColor: "divider",
           backgroundColor: "white",
           fontWeight: "bolder",
+          position: "fixed",
+          width: "200px",
+          marginTop: "50px",
         }}
       >
         <Tab label="FEED" {...a11yProps(0)} />
@@ -79,23 +76,35 @@ export default function VerticalTabs() {
         <Tab label="MY PROFILE" {...a11yProps(5)} />
       </Tabs>
       <TabPanel value={value} index={0}>
-        <Feed />
+        <div className="tabclass">
+          <Feed />
+        </div>
       </TabPanel>
       <TabPanel value={value} index={1}>
-        <MyFeed />
+        <div className="tabclass">
+          <MyFeed />
+        </div>
       </TabPanel>
       <TabPanel value={value} index={2}>
-        <SavedPosts />
+        <div className="tabclass">
+          <SavedPosts />
+        </div>
       </TabPanel>
       <TabPanel value={value} index={3}>
-        <TaskManagement />
+        <div className="tabclass">
+          <TaskManagement />
+        </div>
       </TabPanel>
       <TabPanel value={value} index={4}>
-        <TaskDashboard />
+        <div className="tabclass">
+          <TaskDashboard />
+        </div>
       </TabPanel>
       <TabPanel value={value} index={5}>
-        <MyProfile />
+        <div className="tabclass">
+          <MyProfile />
+        </div>
       </TabPanel>
-    </Box>
+    </>
   );
 }

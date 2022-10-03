@@ -11,8 +11,8 @@ const Index = () => {
 
   return (
     <div class="container ">
-      <div class="row d-flex align-items-center justify-content-center">
-        <div class="col-md-6">
+      <div class="row d-flex ">
+        <div class="col-md-8">
           <div class="card">
             <div class="d-flex justify-content-between p-2 px-3">
               <div class="d-flex flex-row align-items-center">
