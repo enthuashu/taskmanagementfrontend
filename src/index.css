@@ -39,3 +39,64 @@ code {
   color: white;
   border-radius: 10%;
 }
+.addtask {
+  padding: 5px;
+  width: auto;
+  background-color: orange;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.taskbox {
+  background-color: white;
+  padding: 2px;
+  border: 2px solid orange;
+}
+
+.taskrow {
+  height: auto;
+}
+
+.heading {
+  font-size: 25px;
+  font-weight: bolder;
+  background-color: skyblue;
+  color: black;
+  border: 2px solid black;
+}
+
+.tasklist {
+  background-color: lightpink;
+  height: 500px;
+  border: 2px solid seagreen;
+  border-radius: 1%;
+  padding: 8px;
+}
+
+.taskname {
+  font-size: larger;
+  font-weight: 600;
+}
+.progressbutton {
+  background-color: aqua;
+  color: black;
+}
+.completebutton {
+  background-color: palegreen;
+  color: black;
+}
+
+.progresslist {
+  background-color: aqua;
+  height: 500px;
+  border: 2px solid seagreen;
+  border-radius: 1%;
+  padding: 8px;
+}
+.successlist {
+  background-color: palegreen;
+  height: 500px;
+  border: 2px solid seagreen;
+  border-radius: 1%;
+  padding: 8px;
+}
