@@ -64,6 +64,14 @@ code {
   color: black;
   border: 2px solid black;
 }
+.heading1 {
+  font-size: 25px;
+  font-weight: bolder;
+  background-color: skyblue;
+  color: black;
+  border: 2px solid black;
+  text-align: center;
+}
 
 .tasklist {
   background-color: lightpink;
@@ -71,6 +79,24 @@ code {
   border: 2px solid seagreen;
   border-radius: 1%;
   padding: 8px;
+}
+.leftcolumn {
+  background-color: lightpink;
+  height: 50px;
+  border: 2px solid seagreen;
+  border-radius: 1%;
+  padding: 8px;
+  font-weight: bolder;
+  text-align: center;
+}
+.rightcolumn {
+  background-color: palegreen;
+  height: 50px;
+  border: 2px solid seagreen;
+  border-radius: 1%;
+  padding: 8px;
+  font-weight: bolder;
+  text-align: center;
 }
 
 .taskname {
